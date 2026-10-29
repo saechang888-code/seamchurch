@@ -127,7 +127,7 @@ p{margin:0 0 1em}
 /* 인사말 */
 .greeting{display:grid;grid-template-columns:360px 1fr;gap:56px;align-items:center}
 .greeting figure{margin:0;position:relative}
-.greeting figure img{border-radius:20px;box-shadow:var(--shadow);width:100%;aspect-ratio:37/50;object-fit:cover;object-position:top}
+.greeting figure img{border-radius:20px;box-shadow:var(--shadow);width:100%;aspect-ratio:830/1024;object-fit:cover;object-position:top}
 .greeting figure::after{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--gold);border-radius:20px;z-index:-1;opacity:.5}
 .greeting figcaption{margin-top:16px;text-align:center;font-family:var(--serif);font-size:19px;color:var(--navy-deep)}
 .greeting figcaption small{display:block;font-family:var(--sans);font-size:15px;color:var(--ink-soft)}
